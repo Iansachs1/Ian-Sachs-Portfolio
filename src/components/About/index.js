@@ -1,7 +1,6 @@
 import React from "react";
 import "./index.css";
 
-import headshot from "./assets/images/Headshot"
 
 function About() {
 
@@ -10,14 +9,14 @@ function About() {
         <section id="About" class="background container-fluid aboutSection">
             <div class="row mx-5">
                 <div class="col-md-5 flex">
-                    <img src={headshot} class="headshot"></img>
+                    <img src="/images/Headshot.png" class="headshot"></img>
                     <div class="text-center name-cap display-4">Ian Thomas Sachs</div>
                     <div class="text-center">Full-Stack Web Development Bootcamp Grad </div>
                     <div class="text-center">UC San Diego</div>
                     <div class="text-center">
-                            <img src="/assets/images/github-sign.png" class="media-icon justify-content-center"></img>
-                            <img src="/assets/images/linkedin.png" class="media-icon justify-content-center"></img>
-                            <img src="/assets/images/instagram.png" class="media-icon justify-content-center"></img>
+                            <img src="/images/github-sign.png" class="media-icon justify-content-center"></img>
+                            <img src="/images/linkedin.png" class="media-icon justify-content-center"></img>
+                            <img src="/images/instagram.png" class="media-icon justify-content-center"></img>
                     </div>
                 </div>
                 <div class="col-md-7">
