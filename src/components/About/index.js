@@ -1,6 +1,8 @@
 import React from "react";
 import "./index.css";
 
+import headshot from "/assets/Headshot.png";
+
 
 function About() {
 
@@ -9,7 +11,7 @@ function About() {
         <section id="About" class="background container-fluid aboutSection">
             <div class="row mx-5">
                 <div class="col-md-5 pb-5">
-                    <img src="/assets/Headshot.png" class="headshot"></img>
+                    <img src={headshot} class="headshot"></img>
                     <div class="text-center name-cap display-4">Ian Thomas Sachs</div>
                     <div class="text-center">Full-Stack Web Development Bootcamp Grad </div>
                     <div class="text-center">UC San Diego</div>
