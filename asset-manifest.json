@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Ian-Sachs-Portfolio/static/css/main.33fff162.chunk.css",
+    "main.js": "/Ian-Sachs-Portfolio/static/js/main.544d1144.chunk.js",
+    "main.js.map": "/Ian-Sachs-Portfolio/static/js/main.544d1144.chunk.js.map",
+    "runtime-main.js": "/Ian-Sachs-Portfolio/static/js/runtime-main.e6fa12da.js",
+    "runtime-main.js.map": "/Ian-Sachs-Portfolio/static/js/runtime-main.e6fa12da.js.map",
+    "static/js/2.edc66e1a.chunk.js": "/Ian-Sachs-Portfolio/static/js/2.edc66e1a.chunk.js",
+    "static/js/2.edc66e1a.chunk.js.map": "/Ian-Sachs-Portfolio/static/js/2.edc66e1a.chunk.js.map",
+    "static/js/3.815bf33a.chunk.js": "/Ian-Sachs-Portfolio/static/js/3.815bf33a.chunk.js",
+    "static/js/3.815bf33a.chunk.js.map": "/Ian-Sachs-Portfolio/static/js/3.815bf33a.chunk.js.map",
+    "index.html": "/Ian-Sachs-Portfolio/index.html",
+    "static/css/main.33fff162.chunk.css.map": "/Ian-Sachs-Portfolio/static/css/main.33fff162.chunk.css.map",
+    "static/js/2.edc66e1a.chunk.js.LICENSE.txt": "/Ian-Sachs-Portfolio/static/js/2.edc66e1a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e6fa12da.js",
+    "static/js/2.edc66e1a.chunk.js",
+    "static/css/main.33fff162.chunk.css",
+    "static/js/main.544d1144.chunk.js"
+  ]
+}
