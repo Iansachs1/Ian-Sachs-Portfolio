@@ -1,5 +1,4 @@
 import React from "react";
-import backdrop from "/images/TempBackdropMonochrome.png";
 
 
 const backgroundImage = {
@@ -7,7 +6,7 @@ const backgroundImage = {
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
-    backgroundImage: url(backdrop)
+    backgroundImage: "url(/assets/TempBackdropMonochrome.png)"
 }
 
 const textShadow = {
