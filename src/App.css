@@ -36,3 +36,120 @@
     transform: rotate(360deg);
   }
 }
+
+/* general */
+body {
+  margin: 0px;
+  background-color: rgb(248, 243, 238);
+}
+
+h3, h4 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+}
+
+.infoOfMe {
+  border-bottom: solid 2px #dbdbdb;
+}
+
+/* navbar */
+#header {
+  border-bottom: solid #e0e0e0;
+  background-color: white;
+}
+
+#name {
+  background-color: #42a797;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#nav {
+  padding-top: 15px;
+  padding-bottom: auto;
+}
+
+
+.horizontal {
+  display: inline; 
+  border-left: 1px solid #dbdbdb; 
+  padding-left: 10px;
+  padding-right: 5px;
+
+}
+
+.first { 
+  border-left: none; 
+  padding-left: 0; 
+}
+
+a {
+  text-decoration: none;
+  color: #888888;
+  text-align: center;
+}
+
+/* change screen for xs screen size */
+@media screen and (max-width: 640px) {
+  header div div #name {
+      width: 100%;
+  }
+
+  header div div #nav {
+      width: 100%;
+      text-align: center;
+      padding-bottom: 15px;
+  }
+
+  section {
+      clear: both;
+      padding-top: 15px;
+  }
+
+  div #MePic {
+      width: 100%;
+      height: auto;
+  }
+}
+
+/* content */
+#AboutCard {
+  margin-top: 30px;
+  border: solid 1px #e0e0e0;
+  border-radius: 0%;
+  margin-bottom: 100px;
+}
+
+#CardTitle {
+  padding-bottom: 5px;
+  border-bottom: solid 2px #dbdbdb;
+  margin-bottom: 15px;
+  color: #42a797;
+}
+
+#MePic {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+  float: left;
+}
+
+.card-body p {
+  color: #888888;
+}
+
+/* footer */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #696969;
+  color: white;
+  text-align: center;
+  border-top: solid 3px #42a797;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
